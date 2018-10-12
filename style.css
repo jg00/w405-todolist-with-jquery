@@ -1,0 +1,28 @@
+body {
+    background-color: lightpink;
+    
+}
+
+.container {
+    max-width: 490px;
+    margin: 0 auto;
+    /* background-color: lightgreen; */
+    padding: 0 10px;
+    /* border: 1px solid #ccc; */
+    
+}
+
+#div-top {
+    display: flex;
+}
+
+#txtTask {
+    flex: 1;
+}
+
+.container-body {
+    background-color: lightsteelblue;
+    padding: 0 10px;
+}
+
+
