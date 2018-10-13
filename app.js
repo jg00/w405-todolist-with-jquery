@@ -28,7 +28,8 @@ function checkBoxChange(sender) {
 
 
 function removeLiItem(sender) {
-    let liParent = sender.parentNode
-    liParent.parentNode.removeChild(sender.parentNode)
+    let senderObject = $(sender); 
+    senderObject.parent().remove();
 }
+
 
